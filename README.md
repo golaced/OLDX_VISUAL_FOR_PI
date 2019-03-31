@@ -69,7 +69,7 @@ ___官方镜像中已经安装了VNC客户端但是
 
 # 5 捐赠与项目后续开发计划
 ____如果您觉得该项目对您有帮助，也为了更好的项目推进和软硬件更新，如果愿意请通过微信捐赠该项目！
-<div align=center><img width="440" height="300" src="https://github.com/golaced/OLDX_DRONE_SIM/blob/rmd/support_file/img_file/pay.png"/></div>
+<div align=center><img width="440" height="300" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file/pay.png"/></div>
 
 
 
