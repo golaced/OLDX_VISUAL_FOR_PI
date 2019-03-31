@@ -52,12 +52,12 @@ ___向树莓派中拷贝文件可直接使用U盘进行复制，另外可以使�
 
 # 4 API软件介绍
 ## 4.1 二维码(立方体)识别跟踪
-<div align=center><img width="300" height="300" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/cube.gif"/></div>
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/cube.gif"/></div>
 
 ___官方镜像中已经安装了VNC客户端但是
 
 ## 4.2 人脸识别跟踪
-<div align=center><img width="300" height="300" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/face.gif"/></div>
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/face.gif"/></div>
 ___官方镜像中已经安装了VNC客户端但是
 
 ## 4.3 巡线
