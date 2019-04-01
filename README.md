@@ -27,12 +27,13 @@ aruco|3.0.3
 serial|1.0.0
 x11vnc|1.0.3
 
-API软件|说明
+API软件|说明|版本
 -------------|-------------
-Cube_Tracker|地标识别跟踪
-Face_Tracker|人脸识别
-Line_Tracker|巡线
-Recorder|视频存储
+Cube_Tracker|地标识别跟踪|Ver1.0
+Face_Tracker|人脸识别|Ver1.0
+Line_Tracker|巡线|Ver1.0
+Color_Tracker|颜色小球追踪存储|Ver1.0
+Recorder|视频存储|Ver1.0
 
 **注：树莓派默认用户名为pi，密码为1**<br>
 **上电后默认连接WIFI名LBm，密码为11111111(Win7用户可以使用猎豹Wifi，Win10可以自建)**
@@ -54,17 +55,21 @@ ___向树莓派中拷贝文件可直接使用U盘进行复制，另外可以使�
 
 ___官方镜像中已经安装了VNC客户端但是
 
-## 4.2 人脸识别跟踪
+## 4.2 颜色小球追踪
+___官方镜像中已经安装了VNC客户端但是
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/color.gif"/></div>
+
+## 4.3 人脸识别跟踪
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/face.gif"/></div>
 ___官方镜像中已经安装了VNC客户端但是
 
-## 4.3 巡线
+## 4.4 巡线
 ___官方镜像中已经安装了VNC客户端但是
 
-## 4.4 视频录制
+## 4.5 视频录制
 ___官方镜像中已经安装了VNC客户端但是
 
-## 4.5 地标SLAM
+## 4.6 地标SLAM
 ___官方镜像中已经安装了VNC客户端但是
 
 # 5 捐赠与项目后续开发计划
