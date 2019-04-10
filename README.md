@@ -12,6 +12,10 @@
 # 2 官方镜像介绍
 ____为方便开发者免去自行安装Linux系统软件的过程，我们提供了官方的SD卡镜像,下载地址为：<br>
 
+```
+链接：https://pan.baidu.com/s/10PRx7hYTbDroZkjTKpcPRQ 
+提取码：pt8j 
+```
 
 请自行下载并使用项目内win32软件写入空白SD卡中，该镜像采用Raspberry原生镜像和树莓派系统，预装了ROS Kinect、Opencv 2.4.9、QT和Kdevelop。集成了已经编译好的API软件并安装好了
 CSI并口树莓派相机驱动能直接测试使用。另外树莓派默认使用IO口串口(ttyS0,最大波特率115200)与单片机进行通讯,镜像内所安装的机体软件如下：
