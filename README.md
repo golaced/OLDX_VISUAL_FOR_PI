@@ -116,7 +116,7 @@ ___该SDK完成对机载相机视频的存储。
 
 ## 4.6 地标SLAM
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/slam.gif"/></div>
-___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM中相关说明。
+___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM。
 
 
 ## 4.7 激光雷达SLAM
