@@ -53,28 +53,75 @@ ___官方镜像中已经安装了VNC客户端但是其自启动较慢，因此�
 ## 3.2 向树莓派中拷贝文件
 ___向树莓派中拷贝文件可直接使用U盘进行复制，另外可以使用项目内的WinSCP软件使用目标IP、账号和密码连接树莓派并直接进行拷贝。
 
-# 4 API软件介绍
+# 4 SDK软件介绍
 ## 4.1 二维码(立方体)识别跟踪
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/cube.gif"/></div>
+___该SDK基于ArUco库实现对二维码的识别，同时计算出相机在地标坐标系下的3D位置和三轴角度，通过串口协议发送给机器人。机器人通过像素中心
+识别结果和3D定位信息，实现降落、目标跟踪等功能。<br>
+运行方法：<br>
 
-___官方镜像中已经安装了VNC客户端但是
+```
+打开终端，cd进入home/pi/QT/Cube_Tracker/bin
+输入，./run
+```
+
+编译方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Cube_Tracker/build
+输入，make
+```
 
 ## 4.2 颜色小球追踪
-___官方镜像中已经安装了VNC客户端但是
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/color.gif"/></div>
+___该SDK基于HSV颜色阈值和霍夫变换实现对黄色小球的追踪，通过串口协议发送目标像素中心识别结果，控制机器人实现目标跟踪。<br>
+运行方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Color_Tracker/bin
+输入，./run
+```
+
+编译方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Color_Tracker/build
+输入，make
+```
 
 ## 4.3 人脸识别跟踪
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/face.gif"/></div>
-___官方镜像中已经安装了VNC客户端但是
+___该SDK基于OpenCv自带分类器对人脸进行识别，通过串口协议发送目标像素中心识别结果，控制机器人实现目标跟踪。<br>
+运行方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Face_Tracker/bin
+输入，python run.py
+```
+
+该SDK采用python不需要编译直接用文本编辑器修改后即可。
 
 ## 4.4 巡线
-___官方镜像中已经安装了VNC客户端但是
+___更新中
 
 ## 4.5 视频录制
-___官方镜像中已经安装了VNC客户端但是
+___该SDK完成对机载相机视频的存储。
+
+```
+打开终端，cd进入home/pi/QT/Record/bin
+输入，./run
+运行后在控制台终端输入空格开始视频存储，再次输入完成存储
+最终视频存储在home/pi/QT/Record/Video中并且ID不不断递增，通过使用WinSCP可以将视频拷贝到PC进行处理
+```
 
 ## 4.6 地标SLAM
-___官方镜像中已经安装了VNC客户端但是
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/slam.gif"/></div>
+___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM中相关说明。
+
+
+## 4.7 激光雷达SLAM
+___更新中
+
 
 # 5 捐赠与项目后续开发计划
 ____如果您觉得该项目对您有帮助，也为了更好的项目推进和软硬件更新，如果愿意请通过微信捐赠该项目！
