@@ -1,0 +1,3 @@
+/home/pi/QT/Cube_Tracker/build/CMakeFiles/rebuild_cache.dir
+/home/pi/QT/Cube_Tracker/build/CMakeFiles/edit_cache.dir
+/home/pi/QT/Cube_Tracker/build/CMakeFiles/run.dir

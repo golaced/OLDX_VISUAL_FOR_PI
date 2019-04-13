@@ -10,7 +10,7 @@
 **-如果您愿意分享对该项目的优化和改进请联系golaced@163.com或加入我们的QQ群567423074，加速开源项目的进度-**<br>
 
 # 2 官方镜像介绍
-____为方便开发者免去自行安装Linux系统软件的过程，我们提供了官方的SD卡镜像,下载地址为：<br>
+____为方便开发者免去自行安装Linux系统软件的过程，我们提供了官方的SD卡镜像(14.0G),下载地址为：<br>
 
 ```
 链接：https://pan.baidu.com/s/10PRx7hYTbDroZkjTKpcPRQ 
@@ -116,7 +116,7 @@ ___该SDK完成对机载相机视频的存储。
 
 ## 4.6 地标SLAM
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/slam.gif"/></div>
-___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM。
+___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM
 
 
 ## 4.7 激光雷达SLAM

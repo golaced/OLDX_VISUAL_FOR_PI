@@ -1,0 +1,3 @@
+/home/pi/QT/Record/build/CMakeFiles/rebuild_cache.dir
+/home/pi/QT/Record/build/CMakeFiles/edit_cache.dir
+/home/pi/QT/Record/build/CMakeFiles/run.dir
