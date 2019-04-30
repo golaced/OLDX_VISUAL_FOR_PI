@@ -13,8 +13,8 @@
 ____为方便开发者免去自行安装Linux系统软件的过程，我们提供了官方的SD卡镜像(14.0G),下载地址为：<br>
 
 ```
-链接：https://pan.baidu.com/s/10PRx7hYTbDroZkjTKpcPRQ 
-提取码：pt8j 
+链接：https://pan.baidu.com/s/1et0EHNnswshPui4hg2_W4Q 
+提取码：kmer 
 ```
 
 请自行下载并使用项目内win32软件写入空白SD卡中，该镜像采用Raspberry原生镜像和树莓派系统，预装了ROS Kinect、Opencv 2.4.9、QT和Kdevelop。集成了已经编译好的API软件并安装好了
