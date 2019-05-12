@@ -44,7 +44,6 @@ QT|QT5
 Python|Python2 Python3
 aruco|3.0.3
 serial|1.0.0
-x11vnc|1.0.3
 
 API软件|说明|版本
 -------------|-------------|-------------
@@ -54,7 +53,7 @@ Line_Tracker|巡线|Ver1.0
 Color_Tracker|颜色小球追踪存储|Ver1.0
 Recorder|视频存储|Ver1.0
 
-**注：树莓派默认用户名为pi，密码为1**(Ver1.0)   用户名为corvin，密码为1**(Ver2.0)<br>
+**注：树莓派默认用户名为pi，密码为1(Ver1.0);  用户名为corvin，密码为1(Ver2.0)**<br>
 **上电后默认连接WIFI名LBm，密码为11111111(Win7用户可以使用猎豹Wifi，Win10可以自建)**
 
 # 3 树莓派使用教程
