@@ -38,7 +38,7 @@ x11vnc|1.0.3
 
 Ver2.0软件|版本说明
 -------------|-------------
-ROS|Full Kinect版本(ROS小小课堂)
+ROS|Full Kinect版本(ROS小课堂)
 Opencv|3.4.1
 QT|QT5
 Python|Python2 Python3
