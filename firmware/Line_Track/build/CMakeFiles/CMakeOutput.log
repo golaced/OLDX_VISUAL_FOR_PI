@@ -1,4 +1,4 @@
-The system is: Linux - 4.14.79-v7+ - armv7l
+The system is: Linux - 4.14.71-v7+ - armv7l
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/pi/QT/Cube_Tracker/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/corvin/QT/Line_Track/build/CMakeFiles/3.7.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/pi/QT/Cube_Tracker/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/corvin/QT/Line_Track/build/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0dad6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0dad6.dir/build.make CMakeFiles/cmTC_0dad6.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0dad6.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0dad6.dir/testCCompiler.c.o   -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_0dad6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dad6.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0dad6.dir/testCCompiler.c.o  -o cmTC_0dad6 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a4730/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4730.dir/build.make CMakeFiles/cmTC_a4730.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4730.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a4730.dir/testCCompiler.c.o   -c /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a4730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4730.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a4730.dir/testCCompiler.c.o  -o cmTC_a4730 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48b0c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48b0c.dir/build.make CMakeFiles/cmTC_48b0c.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_48b0c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48b0c.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o  -o cmTC_48b0c -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_5d668/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d668.dir/build.make CMakeFiles/cmTC_5d668.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5d668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d668.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o  -o cmTC_5d668 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48b0c' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdfQNPQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_48b0c /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48b0c' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d668' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc642vfT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_5d668 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d668' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_48b0c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_48b0c.dir/build.make CMakeFiles/cmTC_48b0c.dir/build]
-  ignore line: [make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_48b0c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48b0c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o  -o cmTC_48b0c -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5d668/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5d668.dir/build.make CMakeFiles/cmTC_5d668.dir/build]
+  ignore line: [make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5d668]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d668.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o  -o cmTC_5d668 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_48b0c' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdfQNPQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_48b0c /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d668' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc642vfT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_5d668 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdfQNPQ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc642vfT.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_48b0c] ==> ignore
+    arg [cmTC_5d668] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
@@ -118,7 +118,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_48b0c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5d668.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,17 +147,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9b391/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9b391.dir/build.make CMakeFiles/cmTC_9b391.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9b391.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_9b391.dir/feature_tests.c.o   -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9b391
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b391.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9b391.dir/feature_tests.c.o  -o cmTC_9b391 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bf150/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf150.dir/build.make CMakeFiles/cmTC_bf150.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf150.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_bf150.dir/feature_tests.c.o   -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bf150
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf150.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bf150.dir/feature_tests.c.o  -o cmTC_bf150 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,17 +167,17 @@ make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78a25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_78a25.dir/build.make CMakeFiles/cmTC_78a25.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_78a25.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_78a25.dir/feature_tests.c.o   -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_78a25
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78a25.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_78a25.dir/feature_tests.c.o  -o cmTC_78a25 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_504c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_504c6.dir/build.make CMakeFiles/cmTC_504c6.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_504c6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_504c6.dir/feature_tests.c.o   -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_504c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_504c6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_504c6.dir/feature_tests.c.o  -o cmTC_504c6 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -187,17 +187,17 @@ make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3c701/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3c701.dir/build.make CMakeFiles/cmTC_3c701.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c701.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_3c701.dir/feature_tests.c.o   -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3c701
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c701.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3c701.dir/feature_tests.c.o  -o cmTC_3c701 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0c3ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c3ef.dir/build.make CMakeFiles/cmTC_0c3ef.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c3ef.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0c3ef.dir/feature_tests.c.o   -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0c3ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c3ef.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0c3ef.dir/feature_tests.c.o  -o cmTC_0c3ef -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -205,30 +205,30 @@ make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_351bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_351bd.dir/build.make CMakeFiles/cmTC_351bd.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_351bd.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_351bd.dir/testCXXCompiler.cxx.o -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_351bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_351bd.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_351bd.dir/testCXXCompiler.cxx.o  -o cmTC_351bd -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b3d59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3d59.dir/build.make CMakeFiles/cmTC_b3d59.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3d59.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b3d59.dir/testCXXCompiler.cxx.o -c /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b3d59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d59.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b3d59.dir/testCXXCompiler.cxx.o  -o cmTC_b3d59 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3802/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a3802.dir/build.make CMakeFiles/cmTC_a3802.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a3802
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3802.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3802 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_4f38b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f38b.dir/build.make CMakeFiles/cmTC_4f38b.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4f38b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f38b.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4f38b -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
@@ -238,24 +238,24 @@ Thread model: posix
 gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3802' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaY6ijd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_a3802 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3802' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f38b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2pMbiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_4f38b /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f38b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a3802/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a3802.dir/build.make CMakeFiles/cmTC_a3802.dir/build]
-  ignore line: [make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a3802]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3802.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a3802 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4f38b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4f38b.dir/build.make CMakeFiles/cmTC_4f38b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4f38b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f38b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4f38b -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
@@ -265,13 +265,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3802' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaY6ijd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_a3802 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4f38b' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2pMbiK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_4f38b /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccaY6ijd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2pMbiK.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -288,7 +288,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a3802] ==> ignore
+    arg [cmTC_4f38b] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_a3802.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4f38b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -324,17 +324,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_618ea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_618ea.dir/build.make CMakeFiles/cmTC_618ea.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_618ea.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_618ea.dir/feature_tests.cxx.o -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_618ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_618ea.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_618ea.dir/feature_tests.cxx.o  -o cmTC_618ea -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c39e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c39e3.dir/build.make CMakeFiles/cmTC_c39e3.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c39e3.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_c39e3.dir/feature_tests.cxx.o -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c39e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c39e3.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c39e3.dir/feature_tests.cxx.o  -o cmTC_c39e3 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -397,17 +397,17 @@ make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a6d7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a6d7.dir/build.make CMakeFiles/cmTC_1a6d7.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a6d7.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_1a6d7.dir/feature_tests.cxx.o -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1a6d7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a6d7.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_1a6d7.dir/feature_tests.cxx.o  -o cmTC_1a6d7 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1955a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1955a.dir/build.make CMakeFiles/cmTC_1955a.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1955a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_1955a.dir/feature_tests.cxx.o -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1955a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1955a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1955a.dir/feature_tests.cxx.o  -o cmTC_1955a -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -470,17 +470,17 @@ make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp
+Change Dir: /home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d579/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d579.dir/build.make CMakeFiles/cmTC_9d579.dir/build
-make[1]: Entering directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9d579.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9d579.dir/feature_tests.cxx.o -c /home/pi/QT/Cube_Tracker/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9d579
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d579.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9d579.dir/feature_tests.cxx.o  -o cmTC_9d579 -rdynamic 
-make[1]: Leaving directory '/home/pi/QT/Cube_Tracker/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ef346/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef346.dir/build.make CMakeFiles/cmTC_ef346.dir/build
+make[1]: Entering directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef346.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ef346.dir/feature_tests.cxx.o -c /home/corvin/QT/Line_Track/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ef346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef346.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ef346.dir/feature_tests.cxx.o  -o cmTC_ef346 -rdynamic 
+make[1]: Leaving directory '/home/corvin/QT/Line_Track/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

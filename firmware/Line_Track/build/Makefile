@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/QT/Cube_Tracker
+CMAKE_SOURCE_DIR = /home/corvin/QT/Line_Track
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/QT/Cube_Tracker/build
+CMAKE_BINARY_DIR = /home/corvin/QT/Line_Track/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/QT/Cube_Tracker/build/CMakeFiles /home/pi/QT/Cube_Tracker/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/corvin/QT/Line_Track/build/CMakeFiles /home/corvin/QT/Line_Track/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/QT/Cube_Tracker/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/corvin/QT/Line_Track/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cube
+# Target rules for targets named run
 
 # Build rule for target.
-Cube: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cube
-.PHONY : Cube
+run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run
+.PHONY : run
 
 # fast build rule for target.
-Cube/fast:
-	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/build
-.PHONY : Cube/fast
+run/fast:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
+.PHONY : run/fast
 
 src/main.o: src/main.cpp.o
 
@@ -129,7 +129,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -138,7 +138,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -147,7 +147,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cube"
+	@echo "... run"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

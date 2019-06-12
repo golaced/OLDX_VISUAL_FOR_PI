@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/QT/Cube_Tracker
+# Install script for directory: /home/corvin/QT/Line_Track
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pi/QT/Cube_Tracker/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/corvin/QT/Line_Track/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

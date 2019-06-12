@@ -118,7 +118,14 @@ ___该SDK基于OpenCv自带分类器对人脸进行识别，通过串口协议�
 该SDK采用python不需要编译直接用文本编辑器修改后即可。
 
 ## 4.4 巡线
-___更新中
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/line.gif"/></div>
+___该SDK基于OpenCv完成对指定颜色线的识别(默认黑色)，通过串口协议发送黑线中心识别结果和角度，控制机器人实现自主巡线。<br>
+运行方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Line_Tracker/bin
+输入，./run
+```
 
 ## 4.5 视频录制
 ___该SDK完成对机载相机视频的存储。

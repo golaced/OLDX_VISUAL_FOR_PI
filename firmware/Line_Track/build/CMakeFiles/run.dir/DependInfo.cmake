@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/QT/Cube_Tracker/src/main.cpp" "/home/pi/QT/Cube_Tracker/build/CMakeFiles/Cube.dir/src/main.cpp.o"
+  "/home/corvin/QT/Line_Track/src/main.cpp" "/home/corvin/QT/Line_Track/build/CMakeFiles/run.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
-  "/usr/local/include/aruco"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev"
+  "/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"
   ".././src/include"
   ".././build"
   "/usr/include/eigen3"
