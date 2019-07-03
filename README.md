@@ -129,7 +129,7 @@ ___该SDK基于OpenCv完成对指定颜色线的识别(默认黑色)，通过串
 
 ## 4.5 找二维码竞速小游戏（模仿DJI RM S1）
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/find.gif"/></div>
-___该SDK基于OpenCv完成对指定颜色线的识别(默认黑色)，通过串口协议发送黑线中心识别结果和角度，控制机器人实现自主巡线。<br>
+___该SDK基于ArUco库完成对指定二维码的查找，通过完成寻找三个不同的二维码进行竞速比赛。<br>
 运行方法：<br>
 
 ```
