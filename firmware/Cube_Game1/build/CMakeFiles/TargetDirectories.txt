@@ -1,0 +1,3 @@
+/home/corvin/QT/Cube_Game1/build/CMakeFiles/rebuild_cache.dir
+/home/corvin/QT/Cube_Game1/build/CMakeFiles/edit_cache.dir
+/home/corvin/QT/Cube_Game1/build/CMakeFiles/run.dir

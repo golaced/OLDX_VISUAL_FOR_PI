@@ -127,7 +127,18 @@ ___该SDK基于OpenCv完成对指定颜色线的识别(默认黑色)，通过串
 输入，./run
 ```
 
-## 4.5 视频录制
+## 4.5 找二维码竞速小游戏（模仿DJI RM S1）
+<div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/find.gif"/></div>
+___该SDK基于OpenCv完成对指定颜色线的识别(默认黑色)，通过串口协议发送黑线中心识别结果和角度，控制机器人实现自主巡线。<br>
+运行方法：<br>
+
+```
+打开终端，cd进入home/pi/QT/Cube_Game1/bin
+输入，./run
+```
+按空格开始游戏，键盘‘r’复位游戏，每轮开始在本地video目录下存储视频
+
+## 4.6 视频录制
 ___该SDK完成对机载相机视频的存储。
 
 ```
@@ -137,12 +148,12 @@ ___该SDK完成对机载相机视频的存储。
 最终视频存储在home/pi/QT/Record/Video中并且ID不不断递增，通过使用WinSCP可以将视频拷贝到PC进行处理
 ```
 
-## 4.6 地标SLAM
+## 4.7 地标SLAM
 <div align=center><img width="300" height="240" src="https://github.com/golaced/OLDX_VISUAL_FOR_PI/blob/master/support_file/img_file2/slam.gif"/></div>
 ___该系统完成对大规模地标阵列地图的自动建立，具体内容请参考https://github.com/golaced/OLDX_Go_SLAM
 
 
-## 4.7 激光雷达SLAM
+## 4.8 激光雷达SLAM
 ___更新中
 
 
